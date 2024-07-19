@@ -7,7 +7,9 @@
 <H3>LINGUAGENS</H3>
 
 <ul>
- <li>Python</li>
+ <li><span
+style="background: #1abc9c; border-radius:5px; padding:5px">
+Python</span>.</li>
  <li>SQL</li>
 </ul>
 
