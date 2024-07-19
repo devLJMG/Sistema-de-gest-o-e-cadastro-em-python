@@ -7,4 +7,10 @@
 <H3>LINGUAGENS</H3>
 
 <P>Python e SQL</P>
-<P>Bibliotecas tkinter, time</P>
+<P>Bibliotecas tkinter, time e pyodbc</P>
+
+<h3>Escopo do projeto</h3>
+
+<p>O objetivo deste projeto é exercitar a criação de objetos executaveis e softwares complexos a avançados o sistema funciona como uma tela de cadastro e venda de produtos e pode ser alterado para os mais diversos fins.</p>
+
+
