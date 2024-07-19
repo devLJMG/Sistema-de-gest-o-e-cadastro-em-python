@@ -7,8 +7,8 @@
 <H3>LINGUAGENS</H3>
 
 <ul>
- <li><spanstyle="background: #1abc9c; border-radius:5px; padding:5px">Python</span></li>
- <li>SQL</li>
+  <li><span style="background: #1abc9c; border-radius:5px; padding:5px">Python</span></li>
+  <li>SQL</li>
 </ul>
 
 <h3>Bibliotecas</h3>
