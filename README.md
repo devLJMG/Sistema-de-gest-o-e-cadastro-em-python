@@ -6,7 +6,10 @@
 
 <H3>LINGUAGENS</H3>
 
-<P>Python e SQL</P>
+<ul>
+ <li>Python</li>
+ <li>SQL</li>
+</ul>
 <P>Bibliotecas tkinter, time e pyodbc</P>
 
 <h3>Escopo do projeto</h3>
