@@ -2,7 +2,7 @@
 
 <h2> Requisitos </h2>
  
-<p><span style="background: #1abc9c; border-radius:5px; padding:5px">Para rodar este código é necessario linguagem Python, linguagem SQL e criação e manipulação de tabelas e tipos de dados em banco de dados SQL e SQLite.</span></p>
+<p>Para rodar este código é necessario linguagem Python, linguagem SQL e criação e manipulação de tabelas e tipos de dados em banco de dados SQL e SQLite.</p>
 
 <H3>LINGUAGENS</H3>
 
