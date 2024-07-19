@@ -1,4 +1,5 @@
-Luciano Gonçalves:
+#Desenvolvido por Luciano Gonçalves:
+
 import pyodbc
 
 from tkinter import *
