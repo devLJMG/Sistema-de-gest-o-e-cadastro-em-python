@@ -25,7 +25,7 @@ Para rodar este código é necessário:
 
 ## Escopo do Projeto
 
-O objetivo deste projeto é exercitar a criação de objetos executáveis e softwares complexos a avançados. O sistema funciona como uma tela de cadastro e venda de produtos e pode ser alterado para os mais diversos fins.
+O objetivo deste projeto é exercitar a criação de objetos executáveis e softwares complexos a avançados. O SGTDP pode ser alterado para os mais diversos fins, criando metricas e novas formas de preenchimento de dados de forma avançada. Possui em seu código(funções, Banco de dados, Treeviews, Dashboards, lambda e sistema de preenchimento de dados em formato UI/UX).
 
 ## Instalação
 
