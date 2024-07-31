@@ -12,8 +12,6 @@ Para rodar este código é necessário:
 
 <ul>
   <li><span style="background: #1abc9c; border-radius:5px; padding:5px">Python</span></li>
-  ## Tecnologias e Linguagens
-- **Python**: Utilizado para o backend e lógica de negócio.
   <li>SQL</li>
 </ul>
 
