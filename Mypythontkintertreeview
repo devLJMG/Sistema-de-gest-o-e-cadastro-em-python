@@ -39,107 +39,6 @@ def cadastrar():
     
     
     estilo_borda = {"borderwidth": 2, "relief": "groove"}
-    
-    
-    Label(janela_cadastrar, text="Nome do Cliente:", font=("Arial", 16), bg="#F5DEB3").grid(row=0, column=0, padx=10, pady=10, stick="W")
-    cliente_cadastrar = Entry(janela_cadastrar, font=("Arial", 16), **estilo_borda)
-    cliente_cadastrar.grid(row=0, column=1, padx=10, pady=10)    
-    
-    Label(janela_cadastrar, text="Endereço: ", font=("Arial", 16), bg="#F5DEB3").grid(row=1,  column=0, padx=10, pady=10, stick="W")
-    cliente_cadastrar = Entry(janela_cadastrar, font=("Arial", 16), **estilo_borda)
-    cliente_cadastrar.grid(row=1, column=1, padx=10, pady=10)    
-    
-    Label(janela_cadastrar, text="Contato(email ou tel)", font=("Arial", 16), bg="#F5DEB3").grid(row=2, column=0, padx=10, pady=10, stick="W")
-    cliente_cadastrar = Entry(janela_cadastrar, font=("Arial", 16), **estilo_borda)
-    cliente_cadastrar.grid(row=2, column=1, padx=10, pady=10) 
-    
-    Label(janela_cadastrar, text="Fumante:", font=("Arial", 16), bg="#F5DEB3").grid(row=3, column=0, padx=10, pady=10, stick="W")
-    cliente_dados = Entry(janela_cadastrar, font=("Arial", 16), **estilo_borda)
-    cliente_dados.grid(row=3, column=1, padx=10, pady=10) 
-    
-    
-    Label(janela_cadastrar, text="Biótipo Cutâneo", font=("Arial", 28), bg="#F5DEB3").grid(row= 4, column=0, padx=10, pady=10, stick="W")
-        
-    var1 = IntVar()  
-    
-    chek = Checkbutton(janela_cadastrar, text="Pele Normal (Eudérmica)", font=("Arial", 12), bg="#F5DEB3", var="var1", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=6, column=0)
-    
-    Var2 = IntVar()  
-    
-    chek = Checkbutton(janela_cadastrar, text="Pele Mista", font=("Arial", 12), bg="#F5DEB3", var="Var2", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=6, column=1,  stick="W")
-    
-    Var3 = IntVar()  
-    
-    chek = Checkbutton(janela_cadastrar, text="Pele Lipídica", font=("Arial", 12), bg="#F5DEB3", var="Var3", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=6, column=2,  stick="W")
-    
-    Var4 = IntVar()  
-    
-    chek = Checkbutton(janela_cadastrar, text="Pele Atipíca", font=("Arial", 12), bg="#F5DEB3", var="Var4", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=6, column=3,  stick="W")
-    
-
-    
-    Label(janela_cadastrar, text="Desequilibrios", font=("Arial", 28), bg="#F5DEB3").grid(row= 7, column=0, padx=10, pady=10, stick="W")
-    
-    Var5 = IntVar()  
-    
-    chek = Checkbutton(janela_cadastrar, text="Pele Desidratada", font=("Arial", 12), bg="#F5DEB3", var="Var5", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=8, column=0)
-    
-    Var6 = IntVar()
-        
-    chek = Checkbutton(janela_cadastrar, text="Pele Sensível", font=("Arial", 12), bg="#F5DEB3", var="Var6", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=8, column=1, stick="W")
-    
-    Var7 = IntVar()
-        
-    chek = Checkbutton(janela_cadastrar, text="Pele Reativa", font=("Arial", 12), bg="#F5DEB3", var="Var7", onvalue=1, offvalue=0, command=salvar_dados)
-    chek.grid(row=8, column=2,  stick="W")
-    
-    Var8 = IntVa
-
-import pyodbc
-
-from tkinter import *
-
-from tkinter import ttk
-
-dadosConexao = ("Driver={SQLite3 ODBC Driver};Server=hostname;Database=Compras_dados.db")
-
-
-conexao = pyodbc.connect(dadosConexao)
-
-conexao.execute("Select * From Produtos")
-       
-janela = Tk()
-janela.title("Cadastro de Produtos")
-
-janela.configure(bg="#F5DEB3")
-
-
-def cadastrar():
-
-    
-    janela_cadastrar = Toplevel(janela)
-    janela_cadastrar.title("Cadastrar Cliente")
-    janela_cadastrar.configure(bg="#F5DEB3")
-    
-    largura_janela = 800
-    altura_janela = 500
-
-    largura_tela = janela_cadastrar.winfo_screenwidth()
-    altura_tela = janela_cadastrar.winfo_screenheight()
-
-    pos_x = (largura_tela // 2) - (largura_janela // 2)
-    pos_y = (altura_tela // 2) - (altura_janela // 2)
-
-    janela_cadastrar.geometry('{}x{}+{}+{}'.format(largura_janela, altura_janela, pos_x, pos_y ))
-    
-    
-    estilo_borda = {"borderwidth": 2, "relief": "groove"}
      
     
     Label(janela_cadastrar, text="Nome do Cliente:", font=("Arial", 16), bg="#F5DEB3").grid(row=0, column=0, padx=10, pady=10, stick="W")
@@ -202,7 +101,7 @@ def cadastrar():
     
     Var8 = IntV
 
-chek = Checkbutton(janela_cadastrar, text="Pele com acne", font=("Arial", 12), bg="#F5DEB3", var="Var8", onvalue=1, offvalue=0, command=salvar_dados)
+    chek = Checkbutton(janela_cadastrar, text="Pele com acne", font=("Arial", 12), bg="#F5DEB3", var="Var8", onvalue=1, offvalue=0, command=salvar_dados)
     chek.grid(row=8, column=3)
     
     Var9 = IntVar()
@@ -284,7 +183,7 @@ chek = Checkbutton(janela_cadastrar, text="Pele com acne", font=("Arial", 12), b
     
     chek = Checkbutton(janela_cadastrar, text=
 
-Label(janela_cadastrar, text="Fototipo", font=("Arial", 28), bg="#F5DEB3").grid(row=15, column=0, padx=10, pady=10, stick="W")    
+    Label(janela_cadastrar, text="Fototipo", font=("Arial", 28), bg="#F5DEB3").grid(row=15, column=0, padx=10, pady=10, stick="W")    
     
     chek = Checkbutton(janela_cadastrar, text="I - Branco/Loiro-nunca bronzeia", font=("Arial", 12), bg="#F5DEB3", var="Var21", onvalue=1, offvalue=0, command=salvar_dados)
     chek.grid(row=16, column=0, stick="W")
