@@ -1,5 +1,9 @@
 #Desenvolvido por Luciano Gonçalves:
 
+#Desenvolvido em 05/2023
+
+ .python
+
 import pyodbc
 
 from tkinter import *
